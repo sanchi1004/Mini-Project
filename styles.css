@@ -78,3 +78,25 @@ h1 {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
