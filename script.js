@@ -45,11 +45,11 @@ function resetTimer() {
     isRunning = false;
     timeLeft = 25 * 60;
     updateTimerDisplay();
-    tomatoImage.classList.remove("running");
+    tomatoImage.classList.remove("running"); 
 }
 
 startButton.addEventListener("click", startTimer);
 pauseButton.addEventListener("click", pauseTimer);
 resetButton.addEventListener("click", resetTimer);
 
-updateTimerDisplay(); 
+updateTimerDisplay();
