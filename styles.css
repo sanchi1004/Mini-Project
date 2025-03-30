@@ -69,7 +69,6 @@ h1 {
     transform: scale(1.1);
 }
 
-/* Tomato animation when running */
 .running img {
     animation: bounce 1s infinite alternate ease-in-out;
 }
