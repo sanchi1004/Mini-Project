@@ -75,5 +75,6 @@ h1 {
 
 .input-area button:hover {
   transform: scale(1.1);
-  background: #ff4f71;
+  background: #c13450;
+  color: white;
 }
