@@ -78,3 +78,80 @@ h1 {
   background: #c13450;
   color: white;
 }
+
+.todos-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#task-list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 5px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.task-text {
+  flex: 1;
+  font-size: 16px;
+  margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.task-checkbox {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.completed .task-text {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #ff6f91;
+  color: white;
+  cursor: pointer;
+  min-width: 60px;
+  text-align: center;
+}
+
+.delete-btn:hover {
+  background: #ff4f71;
+}
+
+.progress-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#progress-text {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+#progress-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+}
